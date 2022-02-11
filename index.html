@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .bubble div {
+        margin: 30px;
+        border: 5px solid green;
+      }
+    </style>
+    <h1 id="heading">0</h1>
+    <button id="inc">increment</button>
+    <button id="dnc">decrement</button>
+    <button id="reset">reset</button>
+
+    <section class="move">
+      <ul>
+        <li class="one">1</li>
+        <li class="two">2</li>
+        <li class="three">3</li>
+        <li class="four">4</li>
+      </ul>
+    </section>
+
+    <section class="bubble">
+      <div onclick="alert('data1')">
+        D1
+        <div onclick="alert('data2')">
+          D2
+          <div onclick="alert('data3')">
+            D3
+            <div onclick="alert('data4')">D4</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section>
+      <div onmouseover="alert('Hey, i am Chetan')">Double click</div>
+    </section> -->
+
+    <section>
+      <input type="submit" value="click me" />
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
